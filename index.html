@@ -1,0 +1,67 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at https://mozilla.org/MPL/2.0/. -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dice</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <p>Click the die to roll...</p>
+    <table class="dice">
+      <tr>
+        <td id="a1" class="off"></td>
+        <td id="a2" class="off"></td>
+        <td id="a3" class="off"></td>
+      </tr>
+      <tr>
+        <td id="b1" class="off"></td>
+        <td id="b2" class="off"></td>
+        <td id="b3" class="off"></td>
+      </tr>
+      <tr>
+        <td id="c1" class="off"></td>
+        <td id="c2" class="off"></td>
+        <td id="c3" class="off"></td>
+      </tr>
+    </table>
+
+    <p>Times rolled:</p>
+    <h1 id="counter">0</h1>
+    <table class="stats">
+      <tr>
+        <td>1s rolled:</td>
+        <td id="roll1">0</td>
+      </tr>
+      <tr>
+        <td>2s rolled:</td>
+        <td id="roll2">0</td>
+      </tr>
+      <tr>
+        <td>3s rolled:</td>
+        <td id="roll3">0</td>
+      </tr>
+      <tr>
+        <td>4s rolled:</td>
+        <td id="roll4">0</td>
+      </tr>
+      <tr>
+        <td>5s rolled:</td>
+        <td id="roll5">0</td>
+      </tr>
+      <tr>
+        <td>6s rolled:</td>
+        <td id="roll6">0</td>
+      </tr>
+    </table>
+    <br>
+
+    <input type="number" min="1" value="1" id="simNum">
+    <button id="sim">Simulate</button>
+    <script src="script.js"></script>
+  </body>
+</html>

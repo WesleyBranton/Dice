@@ -1,0 +1,48 @@
+/* This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at https://mozilla.org/MPL/2.0/. */
+
+body {
+  background: #54734f url(background.jpg) center no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.dice {
+  background: white;
+  border-radius: 20px;
+  border-spacing: 20px;
+  cursor: pointer;
+  margin: auto;
+}
+
+.dice td {
+  border-radius: 100px;
+  height: 50px;
+  width: 50px;
+}
+
+.dice td.off {
+  background: none;
+}
+
+.dice td.on {
+  background: black radial-gradient(#555555 10%, black 60%);
+}
+
+p {
+  font-size: 18px;
+  margin: 10px 0 0 0;
+  text-align: center;
+}
+
+h1 {
+  font-size: 50px;
+  margin: 0;
+  text-align: center;
+}
+
+.stats {
+  margin: auto;
+}
